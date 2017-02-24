@@ -1,0 +1,18 @@
+/**
+ * resets the CSS of the browser to sane, compatible defaults
+ * useful when your desktop has a dark theme which unfortunately is
+ * picked up by the browser with disastrous results.
+ */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+input:not(.urlbar-input):not(.textbox-input):not([type=button]):not([type=submit]):not([type=reset]):not([type=checkbox]):not([type=radio]),
+textarea,
+select {
+	-moz-appearance: initial;
+	background: white;
+	color: black;
+}
+
+#downloads-indicator-counter {
+	color: initial;
+}
