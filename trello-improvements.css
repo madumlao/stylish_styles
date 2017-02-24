@@ -1,0 +1,16 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("trello.com") {
+	span.card-label {
+		width: inherit !important;
+		padding-right: 0.5em !important;
+	}
+
+	div.card-counter {
+		display: inline-block !important;
+		padding: 1px !important;
+	}
+	textarea.list-header-name {
+		display: inline-block !important;
+	}
+}
