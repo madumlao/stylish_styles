@@ -1,0 +1,11 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("rocket.chat") {
+	.flex-tab .content>.animated {
+		position: initial;
+	}
+
+	.user-view.animated {
+		position: absolute !important;
+	}
+}
